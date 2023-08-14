@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;                                                                                             
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: hsl(96, 11%, 52%);
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0 2%;
+    box-shadow: 0 2px 5px rgb(44, 55, 53);
+}
+
+li {
+    font-weight: 550;
+}
+
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 20px;
+    color:#414b41;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    background: #546e51;
+    color: #a4d39ec2;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: hsl(96, 11%, 52%);
+    display: none;
+}
+
+nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+
+.text_up {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    text-transform: uppercase;
+    color: #495f49;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font: 54px/64px Helvetica, Sans-Serif;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+img {
+    width: 100%;
+    height: 70%;
+}
+
+.discribe {
+    color: rgb(23, 29, 24);
+    font: 24px/34px Helvetica, Sans-Serif;
+}
+
+
+
+
+/* шестиугольник */
+#hexagon {
+    top: -175px;
+    left: 40%;
+    width: 250px;
+    height: 125px;
+    background: rgb(103, 140, 93);
+    position: relative;
+   }
+   #hexagon:before {
+    content: "";
+    position: absolute;
+    top: -50px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 51px solid rgb(103, 140, 93);
+   }
+   #hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -50px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: 51px solid rgb(103, 140, 93);
+   }
+
+
+
+
+/* второй шестиугольник */
+   #hexagon2 {
+    top: -114px;
+    left: 49%;
+    width: 250px;
+    height: 125px;
+    background: rgb(103, 140, 93);
+    position: relative;
+   }
+   #hexagon2:before {
+    content: "";
+    position: absolute;
+    top: -50px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 51px solid rgb(103, 140, 93);
+   }
+   #hexagon2:after {
+    content: "";
+    position: absolute;
+    bottom: -50px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: 51px solid rgb(103, 140, 93);
+   }
+
+
+
+/* третий шестиугольник */
+   #hexagon3 {
+    top: -240px;
+    left: 31%;
+    width: 250px;
+    height: 125px;
+    background: rgb(103, 140, 93);
+    position: relative;
+   }
+   #hexagon3:before {
+    content: "";
+    position: absolute;
+    top: -50px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-bottom: 51px solid rgb(103, 140, 93);
+   }
+   #hexagon3:after {
+    content: "";
+    position: absolute;
+    bottom: -50px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+    border-top: 51px solid rgb(103, 140, 93);
+   }
+
+
+
+/* еще один шестиугольник но уже поменьше*/
+#hexagon4 {
+    top: -510px;
+    left: 29%;
+    width: 150px;
+    height: 75px;
+    background: rgb(103, 140, 93);
+    position: relative;
+   }
+   #hexagon4:before {
+    content: "";
+    position: absolute;
+    top: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 31px solid rgb(103, 140, 93);
+   }
+   #hexagon4:after {
+    content: "";
+    position: absolute;
+    bottom: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 31px solid rgb(103, 140, 93);
+   }
+
+
+
+
+   #hexagon5 {
+    top: -580px;
+    left: 57.5%;
+    width: 150px;
+    height: 75px;
+    background: rgb(103, 140, 93);
+    position: relative;
+   }
+   #hexagon5:before {
+    content: "";
+    position: absolute;
+    top: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 31px solid rgb(103, 140, 93);
+   }
+   #hexagon5:after {
+    content: "";
+    position: absolute;
+    bottom: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 31px solid rgb(103, 140, 93);
+   }
+
+
+
+/* и еще один */
+#hexagon6 {
+    top: -515px;
+    left: 66.5%;
+    width: 150px;
+    height: 75px;
+    background: rgb(103, 140, 93);
+    position: relative;
+   }
+   #hexagon6:before {
+    content: "";
+    position: absolute;
+    top: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 31px solid rgb(103, 140, 93);
+   }
+   #hexagon6:after {
+    content: "";
+    position: absolute;
+    bottom: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 31px solid rgb(103, 140, 93);
+   }
+
+
+/* некст */
+#hexagon7 {
+    top: -590px;
+    left: 20%;
+    width: 150px;
+    height: 75px;
+    background: rgb(103, 140, 93);
+    position: relative;
+   }
+   #hexagon7:before {
+    content: "";
+    position: absolute;
+    top: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 31px solid rgb(103, 140, 93);
+   }
+   #hexagon7:after {
+    content: "";
+    position: absolute;
+    bottom: -30px; 
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 31px solid rgb(103, 140, 93);
+   }
